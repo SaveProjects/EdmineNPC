@@ -1,0 +1,65 @@
+#
+# Fichier configuration de npc par Edmine Network.
+# Dev: N12cf
+# Version: 0.1
+#
+
+# Liste des variables (accens, informations, emojies):
+# Accens (alphabet):
+# - {e1} = é, {e2} = è, {e3} = ê, {i1} = î, {a1} = à, {a2} = â, {o1} ô.
+#
+# Informations:
+# - {spigot_online} = Liste des joueurs, {server_id} = ID généré par le serveur,
+# {player_name} = Pseudo du joueur, {fragments_dames} = Economie, {eclats_divins} = Economie,
+# {argent} = Economie.
+#
+# Emojies:
+# - {love} = ❤, {valide} = ✔, {unvalid} = ✘, {flocon} = ✵, {eclats} = ❁, {money} = ✪,
+# {star} = ✯, {right} = ➡, {left} = ⬅, {up} = ⬆, {down} = ⬇, {right_select} = ➟,
+# {alert} = ⚠, {separator} = », {inverseseparator} = «, {euro} = €.
+#
+# Animations:
+# {anim1} = Animation de marche
+# {anim2} = Animation de marche (avec un bloc dans la main)
+# {anim3} = Animation de bonjour !
+
+NPC:
+  testnpc:
+    name: 'NPC_[14589631]'
+    customname:
+      1: '&ctest'
+      2: '&atest'
+    world: 'hub'
+    loc:
+      x: -0.5
+      y: 70.0
+      z: -0.5
+      f: -0.5
+      p: -0
+    animation: 'none'
+    command: 'test'
+    npcsize: 'large'
+    iteminhand: 'iron_sword'
+    itemisenchant: 'yes'
+    head: '47ad48f18cad99e06dfa4e59f7e486864f974daa985f6d6e657032b23eafca7'
+    chestplate:
+      material: 'leather_chestplate'
+      itemisenchant: 'yes'
+      color:
+        r: 1
+        g: 1
+        b: 1
+    leggings:
+      material: 'leather_leggings'
+      itemisenchant: 'yes'
+      color:
+        r: 1
+        g: 1
+        b: 1
+    boots:
+      material: 'leather_boots'
+      itemisenchant: 'yes'
+      color:
+        r: 1
+        g: 1
+        b: 1
