@@ -38,7 +38,7 @@ public class Main extends JavaPlugin
 
     public void removeEntities() {
         Bukkit.getServer().dispatchCommand((CommandSender)Bukkit.getConsoleSender(), "minecraft:kill @e[type=ArmorStand]");
-        System.out.println("Toutes les entités on été suprimer...");
+        System.out.println("Toutes les entités ont été supprimées...");
     }
     public static Main getInstance() {  return Main.instance; }
     public static Plugin getPlugin() { return null; }
